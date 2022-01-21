@@ -23,7 +23,7 @@
     <ClInclude Include="member.h" />
     <ClInclude Include="student.h" />
     <ClInclude Include="student_leader.h" />
-    <ClInclude Include="student_leader.cc" />
+    <ClCompile Include="student_leader.cc" />
     <ClInclude Include="teacher.h" />
   </ItemGroup>
   <ItemGroup>
@@ -31,6 +31,7 @@
     <ClCompile Include="manager.cc" />
     <ClCompile Include="student.cc" />
     <ClCompile Include="teacher.cc" />
+    <ClCompile Include="test.cc" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

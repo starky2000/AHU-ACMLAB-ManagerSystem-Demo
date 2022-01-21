@@ -30,9 +30,6 @@
     <ClInclude Include="teacher.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="student_leader.cc">
-      <Filter>源文件</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cc">
@@ -45,6 +42,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="teacher.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="student_leader.cc">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

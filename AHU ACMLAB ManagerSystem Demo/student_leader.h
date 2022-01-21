@@ -7,7 +7,7 @@ using namespace std;
 class StudentLeader : public Member{
  public:
   //构造函数
-  StudentLeader(const string &id, const string  &name, const string &position);
+  StudentLeader(const string id, const string name, const string position);
   //显示成员信息
   virtual void ShowInfo();
   //获取身份
