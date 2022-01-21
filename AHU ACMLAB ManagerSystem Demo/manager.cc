@@ -2,12 +2,16 @@
 
 using namespace std;
 
+//默认构造
 Manager::Manager(){
+	this->member_number_=0;
+	this->member_array_=NULL;
 }
 
 Manager::~Manager(){
 }
 
+//显示菜单
 void Manager::ShowMenu(){
 	cout << "*********************************************" << endl;
 	cout << "*********欢迎使用AHUACM实验室管理系统********" << endl;
@@ -23,9 +27,18 @@ void Manager::ShowMenu(){
 
 }
 
+//退出系统
 void Manager::ExitSystem(){
 	system("cls");
 	cout << "欢迎下次使用!" << endl;
 	exit(0);
 	return;
+}
+
+//添加成员
+void Manager::AddMember(){
+	cout << "请输入添加成员的数量: " << endl;
+	int addnum=0;
+	cin >> addnum;
+
 }
